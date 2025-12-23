@@ -1,0 +1,22 @@
+{
+  "name": "copilot-audit-phase-2",
+  "version": "1.0.0",
+  "description": "Code scanning and audit system for repositories",
+  "main": "src/index.js",
+  "scripts": {
+    "scan": "node src/scanner.js",
+    "audit": "node src/auditor.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "audit",
+    "code-scanning",
+    "security",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.20.0"
+  }
+}
