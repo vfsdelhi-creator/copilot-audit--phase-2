@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.env
+dist/
+build/
+temp/
+cloned-repos/
+audit-reports/

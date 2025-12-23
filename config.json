@@ -1,0 +1,18 @@
+{
+  "scan": {
+    "outputDir": "./audit-reports",
+    "cloneDir": "./cloned-repos",
+    "checkSecurityIssues": true,
+    "checkCodeQuality": true,
+    "checkDependencies": true
+  },
+  "audit": {
+    "rules": [
+      "no-hardcoded-secrets",
+      "no-eval",
+      "no-console-log",
+      "check-dependencies-vulnerabilities"
+    ],
+    "severity": "high"
+  }
+}
